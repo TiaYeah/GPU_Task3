@@ -1,0 +1,9 @@
+﻿  main.cpp
+     Создается библиотека D:\Projects\CudaTask3\x64\Release\CudaTask3.lib и объект D:\Projects\CudaTask3\x64\Release\CudaTask3.exp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  Создание кода
+  3 of 8 functions (37.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  CudaTask3.vcxproj -> D:\Projects\CudaTask3\x64\Release\CudaTask3.exe

@@ -1,0 +1,192 @@
+﻿  Compiling CUDA source file gpu.cu...
+  
+  D:\Projects\CudaTask3\CudaTask3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\Projects\CudaTask3\CudaTask3\x64\Debug\gpu.cu.obj "D:\Projects\CudaTask3\CudaTask3\gpu.cu" 
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(61): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(69): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(75): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(81): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(88): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(94): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(100): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(155): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(163): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(169): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(175): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(182): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(188): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(194): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(61): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(69): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(75): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(81): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(88): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(94): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(100): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 106)
+              variable "gridSize" (declared at line 107)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(155): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(163): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(169): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(175): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(182): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(188): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(194): warning #546-D: transfer of control bypasses initialization of:
+              variable "blockSize" (declared at line 200)
+              variable "gridSize" (declared at line 201)
+            goto Error;
+            ^
+  
+  gpu.cu
+  tmpxft_00005d84_00000000-7_gpu.cudafe1.cpp
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(107): warning C4533: пропуск инициализации "gridSize" из-за перехода "goto Error"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(107): note:  см. объявление "gridSize"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(137): note:  см. объявление "Error"
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(106): warning C4533: пропуск инициализации "blockSize" из-за перехода "goto Error"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(106): note:  см. объявление "blockSize"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(137): note:  см. объявление "Error"
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(201): warning C4533: пропуск инициализации "gridSize" из-за перехода "goto Error"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(201): note:  см. объявление "gridSize"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(231): note:  см. объявление "Error"
+D:\Projects\CudaTask3\CudaTask3\gpu.cu(200): warning C4533: пропуск инициализации "blockSize" из-за перехода "goto Error"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(200): note:  см. объявление "blockSize"
+  D:\Projects\CudaTask3\CudaTask3\gpu.cu(231): note:  см. объявление "Error"
+     Создается библиотека D:\Projects\CudaTask3\x64\Debug\CudaTask3.lib и объект D:\Projects\CudaTask3\x64\Debug\CudaTask3.exp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  CudaTask3.vcxproj -> D:\Projects\CudaTask3\x64\Debug\CudaTask3.exe
